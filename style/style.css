@@ -103,6 +103,10 @@ ul a:hover {
   color: var(--dark-green);
 }
 
+.menu {
+  display: none;
+}
+
 /****************************** header end */
 
 /* ***************************************************************************** */
@@ -259,8 +263,88 @@ ul a:hover {
 
 /****************************** intro end */
 
+/* ****************************************************************  RWD DESIGN  ******************************************************************* */
 
+@media only screen and (max-width: 1000px) {
+  /****************************** header start */
 
+  nav ul {
+    width: 50%;
+  }
 
+  ul a {
+    font-size: 14px;
+  }
 
-/* **********************************  RWD DESIGN  ******************************** */
+  .num {
+    width: 155px;
+  }
+
+  .num p {
+    font-size: 18px;
+  }
+
+  /****************************** header end */
+}
+
+@media only screen and (max-width: 768px) {
+  /****************************** header start */
+
+  nav ul {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    font-size: 34px;
+  }
+
+  ul a {
+    font-size: 16px;
+  }
+
+  .num {
+    width: 170px;
+  }
+
+  .num p {
+    font-size: 20px;
+  }
+
+  /****************************** header end */
+}
+
+@media only screen and (max-width: 480px) {
+  /****************************** header start */
+
+  nav {
+    height: 43px;
+  }
+
+  header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .menu {
+    font-size: 28px;
+  }
+
+  ul a {
+    font-size: 16px;
+  }
+
+  .logo {
+    width: 100px;
+    height: 43px;
+  }
+
+  .contact,
+  .num {
+    display: none;
+  }
+
+  /****************************** header end */
+}
+
+/* ****************************************************************  RWD DESIGN  ******************************************************************* */
