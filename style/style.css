@@ -265,6 +265,107 @@ ul a:hover {
 
 /****************************** intro end */
 
+/* ***************************************************************************** */
+
+/****************************** basic start */
+
+#basic {
+  width: 100%;
+  min-height: 896px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.basic-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  min-height: 596px;
+}
+
+.basic-wrapper h2 {
+  font-family: var(--font-r);
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 57.5px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.basic-wrapper .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 458px;
+}
+
+.basic-wrapper .cards .line {
+  min-height: 458px;
+  border: 1px solid rgba(40, 43, 34, 0.2);
+}
+
+.basic-wrapper .cards .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 458px;
+  width: 30%;
+}
+
+.basic-wrapper .cards .card .index {
+  color: rgba(40, 43, 34, 0.5);
+  font-family: var(--font-r);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.basic-wrapper .cards .card .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 370px;
+  width: 100%;
+}
+
+.basic-wrapper .cards .card .info h6 {
+  color: var(--dark-green);
+  font-family: var(--font-r);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.basic-wrapper .cards .card .info img {
+  width: 100%;
+  height: 320px;
+  object-fit: fill;
+}
+
+/****************************** basic end */
+
+/* ************************************** */
+
+/****************************** items start */
+
+#items{
+  width: 100%;
+  background-color: var(--dark-green);
+  min-height: 688px;
+}
+
+.items-wrapper{
+  
+}
+
+/****************************** items end */
+
 /* ****************************************************************  RWD DESIGN  ******************************************************************* */
 
 @media only screen and (max-width: 1000px) {
@@ -321,6 +422,35 @@ ul a:hover {
   }
 
   /****************************** intro end */
+
+  /* ***************************************************************************** */
+
+  /****************************** basic start */
+
+  .basic-wrapper .cards {
+    min-height: 482px;
+  }
+
+  .basic-wrapper .cards .line {
+    min-height: 482px;
+  }
+
+  .basic-wrapper .cards .card {
+    min-height: 482px;
+    width: 30%;
+  }
+
+  .basic-wrapper .cards .card .info {
+    min-height: 394px;
+  }
+
+  .basic-wrapper .cards .card .info img {
+    width: 100%;
+    height: 320px;
+    object-fit: fill;
+  }
+
+  /****************************** basic end */
 }
 
 @media only screen and (max-width: 768px) {
@@ -377,6 +507,46 @@ ul a:hover {
   }
 
   /****************************** intro end */
+
+  /* ***************************************************************************** */
+
+  /****************************** basic start */
+
+  .basic-wrapper h2{
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  .basic-wrapper .cards {
+    min-height: 438px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .basic-wrapper .cards .line {
+    min-height: 438px;
+  }
+
+  .basic-wrapper .cards .card {
+    min-height: 438px;
+    width: 45%;
+  }
+
+  .basic-wrapper .cards:last-child .card {
+    margin-top: 50px;
+  }
+
+  .basic-wrapper .cards .card .info {
+    min-height: 370px;
+  }
+
+  .basic-wrapper .cards .card .info img {
+    width: 100%;
+    height: 320px;
+    object-fit: fill;
+  }
+
+  /****************************** basic end */
 }
 
 @media only screen and (max-width: 480px) {
@@ -446,6 +616,35 @@ ul a:hover {
   }
 
   /****************************** intro end */
+
+  /* ***************************************************************************** */
+
+  /****************************** basic start */
+
+  .basic-wrapper .cards {
+    height: auto;
+  }
+
+  .basic-wrapper .cards .line {
+    display: none;
+  }
+
+  .basic-wrapper .cards .card {
+    min-height: 413px;
+    width: 100%;
+  }
+
+  .basic-wrapper .cards .card .info {
+    min-height: 370px;
+  }
+
+  .basic-wrapper .cards .card .info img {
+    width: 100%;
+    height: 320px;
+    object-fit: fill;
+  }
+
+  /****************************** basic end */
 }
 
 @media only screen and (max-width: 350px) {
@@ -455,7 +654,7 @@ ul a:hover {
     background-image: url(../images/480.png);
   }
 
-  .intro-wrapper{
+  .intro-wrapper {
     min-height: 550px;
   }
 
