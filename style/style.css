@@ -450,6 +450,100 @@ ul a:hover {
 
 /****************************** items end */
 
+/* ********************************************************************* */
+
+/****************************** process start*/
+
+#process {
+  width: 100%;
+  min-height: 658px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.process-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 458px;
+}
+
+.process-wrapper h2 {
+  color: var(--primary-color);
+  font-family: var(--font-r);
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 57.5px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.process-wrapper .cards {
+  display: flex;
+  justify-content: start;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 220px;
+}
+
+.process-wrapper .cards .card {
+  min-height: 220px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.process-wrapper .cards .card span {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid var(--dark-green);
+  display: grid;
+  place-items: center;
+  font-family: var(--font-r);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: var(--dark-green);
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 130px;
+  width: 100%;
+}
+
+.body h6 {
+  font-family: var(--font-r);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  color: var(--primary-color);
+}
+
+.body p {
+  font-family: var(--font-r);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23.2px;
+  letter-spacing: 0%;
+  color: rgba(40, 43, 34, 0.8);
+}
+
+.process-wrapper .line {
+  width: 100%;
+  border: 1px solid rgba(40, 43, 34, 0.2);
+}
+
+/****************************** process end */
+
 /* ****************************************************************  RWD DESIGN  ******************************************************************* */
 
 @media only screen and (max-width: 1000px) {
@@ -568,6 +662,49 @@ ul a:hover {
   }
 
   /****************************** items end */
+
+  /* ********************************************************************* */
+
+  /****************************** process start*/
+
+  #process {
+    width: 100%;
+    min-height: 658px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  /* .process-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 458px;
+  } */
+
+  .process-wrapper .cards {
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .process-wrapper .cards .card {
+    min-height: 220px;
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100px;
+    width: 100%;
+  }
+
+  /****************************** process end */
 }
 
 @media only screen and (max-width: 768px) {
