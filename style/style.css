@@ -354,14 +354,98 @@ ul a:hover {
 
 /****************************** items start */
 
-#items{
+#items {
   width: 100%;
   background-color: var(--dark-green);
   min-height: 688px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.items-wrapper{
-  
+.items-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 488px;
+  width: 100%;
+}
+
+.items-wrapper h2 {
+  font-family: var(--font-r);
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 57.5px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.items-wrapper .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  justify-content: center;
+  width: 93%;
+  place-items: center;
+  margin: 0 auto;
+  min-height: 348px;
+}
+
+.items-wrapper .cards .card {
+  max-width: 278px;
+  min-height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items-wrapper .cards .card:nth-child(1) {
+  max-width: 108px;
+  min-height: 126px;
+}
+
+.items-wrapper .cards .card:nth-child(2) {
+  max-width: 148px;
+  min-height: 130px;
+}
+
+.items-wrapper .cards .card:nth-child(3) {
+  max-width: 245px;
+  min-height: 124px;
+}
+
+.items-wrapper .cards .card:nth-child(4) {
+  max-width: 106px;
+  min-height: 129px;
+}
+
+.items-wrapper .cards .card:nth-child(6) {
+  max-width: 183px;
+  min-height: 127px;
+}
+
+.items-wrapper .cards .card img {
+  height: 70px;
+  width: 70px;
+}
+
+.items-wrapper .cards .card p {
+  font-family: var(--font-r);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31.2px;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.items-wrapper .cards .card:nth-child(5) p {
+  padding-top: 10px;
+}
+
+.items-wrapper .cards .card:nth-child(5) img {
+  margin-top: 40px;
 }
 
 /****************************** items end */
@@ -451,6 +535,39 @@ ul a:hover {
   }
 
   /****************************** basic end */
+
+  /* ************************************** */
+
+  /****************************** items start */
+
+  .items-wrapper .cards {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+
+  .items-wrapper .cards .card {
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+  }
+
+  .items-wrapper .cards .card img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .items-wrapper .cards .card p {
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .items-wrapper .cards .card:nth-child(5) {
+    margin-bottom: 80px;
+  }
+
+  /****************************** items end */
 }
 
 @media only screen and (max-width: 768px) {
@@ -512,7 +629,7 @@ ul a:hover {
 
   /****************************** basic start */
 
-  .basic-wrapper h2{
+  .basic-wrapper h2 {
     font-size: 28px;
     line-height: 33px;
   }
@@ -547,6 +664,33 @@ ul a:hover {
   }
 
   /****************************** basic end */
+
+  /* ************************************** */
+
+  /****************************** items start */
+
+  .items-wrapper h2 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .items-wrapper .cards .card {
+    width: 40%;
+    height: 50px;
+    margin-top: 30px;
+  }
+
+  .items-wrapper .cards .card img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .items-wrapper .cards .card p {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  /****************************** items end */
 }
 
 @media only screen and (max-width: 480px) {
@@ -645,6 +789,32 @@ ul a:hover {
   }
 
   /****************************** basic end */
+
+  /* ************************************** */
+
+  /****************************** items start */
+
+  .items-wrapper h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .items-wrapper .cards .card {
+    width: 100%;
+    height: auto;
+  }
+
+  .items-wrapper .cards .card img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .items-wrapper .cards .card p {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  /****************************** items end */
 }
 
 @media only screen and (max-width: 350px) {
