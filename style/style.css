@@ -544,6 +544,90 @@ ul a:hover {
 
 /****************************** process end */
 
+/* **************************************************** */
+
+/****************************** partners start */
+
+#partners {
+  width: 100%;
+  min-height: 503px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#partners .partners-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 303px;
+}
+
+#partners .partners-wrapper h2 {
+  color: var(--primary-color);
+  font-family: var(--font-r);
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 57.5px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 90px;
+}
+
+.child-logo {
+  display: grid;
+  place-items: center;
+  width: 24%;
+  border: 1px solid rgba(40, 43, 34, 0.2);
+  height: 90px;
+}
+
+.child-logo img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 130px;
+  height: 55px;
+}
+
+.slider span {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 1px solid var(--dark-green);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.slider span i {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.slider span:hover {
+  background-color: #ae7b3c;
+  color: #ffffff;
+  transition: all 0.2s;
+  border: none;
+}
+
+/****************************** partners end */
+
 /* ****************************************************************  RWD DESIGN  ******************************************************************* */
 
 @media only screen and (max-width: 1000px) {
@@ -866,6 +950,45 @@ ul a:hover {
   }
 
   /****************************** process end */
+
+  /* **************************************************** */
+
+  /****************************** partners start */
+
+  #partners {
+    min-height: 35px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #partners .partners-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 303px;
+  }
+
+  #partners .partners-wrapper h2 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .logos {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .child-logo {
+    width: 49%;
+    margin-top: 20px;
+  }
+
+  .slider {
+    margin-top: 50px;
+  }
+
+  /****************************** partners end */
 }
 
 @media only screen and (max-width: 480px) {
@@ -1039,6 +1162,53 @@ ul a:hover {
   }
 
   /****************************** process end */
+
+  /* **************************************************** */
+
+  /****************************** partners start */
+
+  #partners {
+    min-height: 350px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #partners .partners-wrapper {
+    width: 100%;
+    min-height: 303px;
+  }
+
+  #partners .partners-wrapper h2 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .logos {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .child-logo {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .child-logo a img {
+    width: 100%;
+    height: auto;
+  }
+
+  .slider {
+    margin-top: 50px;
+    width: 100px;
+  }
+
+  .slider span {
+    width: 45px;
+    height: 45px;
+  }
+
+  /****************************** partners end */
 }
 
 @media only screen and (max-width: 350px) {
@@ -1128,11 +1298,42 @@ ul a:hover {
     width: 50px;
   }
 
-  .process-wrapper .line{
+  .process-wrapper .line {
     margin-top: 30px;
   }
 
   /****************************** process end */
+
+  /* **************************************************** */
+
+  /****************************** partners start */
+
+  #partners {
+    min-height: 350px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #partners .partners-wrapper h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .child-logo {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .slider {
+    margin-top: 30px;
+    width: 100px;
+  }
+
+  .slider span {
+    width: 45px;
+    height: 45px;
+  }
+
+  /****************************** partners end */
 }
 
 /* ****************************************************************  RWD DESIGN  ******************************************************************* */
