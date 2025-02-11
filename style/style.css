@@ -668,39 +668,29 @@ ul a:hover {
   /****************************** process start*/
 
   #process {
-    width: 100%;
-    min-height: 658px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
-  /* .process-wrapper {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 458px;
-  } */
+  .process-wrapper {
+    min-height: 658px;
+  }
 
   .process-wrapper .cards {
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     align-items: center;
   }
 
   .process-wrapper .cards .card {
     min-height: 220px;
-    width: 34%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    width: 40%;
+    margin-top: 50px;
   }
+
   .body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100px;
+    min-height: 140px;
     width: 100%;
   }
 
@@ -828,6 +818,54 @@ ul a:hover {
   }
 
   /****************************** items end */
+
+  /* ********************************************************************* */
+
+  /****************************** process start */
+
+  #process {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .process-wrapper {
+    min-height: 705px;
+  }
+
+  .process-wrapper h2 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .process-wrapper .cards {
+    width: 100%;
+  }
+
+  .process-wrapper .cards .card {
+    min-height: 190px;
+    width: 48%;
+  }
+
+  .process-wrapper .cards .card p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .process-wrapper .cards .card h6 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .process-wrapper .cards .body {
+    min-height: 110px;
+  }
+
+  .process-wrapper .cards .card span {
+    height: 50px;
+    width: 50px;
+  }
+
+  /****************************** process end */
 }
 
 @media only screen and (max-width: 480px) {
@@ -952,6 +990,55 @@ ul a:hover {
   }
 
   /****************************** items end */
+
+  /* ********************************************************************* */
+
+  /****************************** process start */
+
+  #process {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .process-wrapper {
+    min-height: 1000px;
+  }
+
+  .process-wrapper h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .process-wrapper .cards {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .process-wrapper .cards .card {
+    width: 100%;
+    min-height: 170px;
+  }
+
+  .process-wrapper .cards .card p {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .process-wrapper .cards .card h6 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .process-wrapper .cards .body {
+    min-height: 100px;
+  }
+
+  .process-wrapper .cards .card span {
+    height: 50px;
+    width: 50px;
+  }
+
+  /****************************** process end */
 }
 
 @media only screen and (max-width: 350px) {
@@ -994,7 +1081,58 @@ ul a:hover {
 
   /****************************** intro end */
 
-  /* ********************************************* */
+  /* ********************************************************************* */
+
+  /****************************** process start */
+
+  #process {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .process-wrapper {
+    min-height: 900px;
+  }
+
+  .process-wrapper h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .process-wrapper .cards {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .process-wrapper .cards .card {
+    width: 100%;
+    min-height: 170px;
+  }
+
+  .process-wrapper .cards .card p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .process-wrapper .cards .card h6 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .process-wrapper .cards .body {
+    min-height: 90px;
+  }
+
+  .process-wrapper .cards .card span {
+    height: 50px;
+    width: 50px;
+  }
+
+  .process-wrapper .line{
+    margin-top: 30px;
+  }
+
+  /****************************** process end */
 }
 
 /* ****************************************************************  RWD DESIGN  ******************************************************************* */
