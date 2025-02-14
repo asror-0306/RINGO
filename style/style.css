@@ -628,6 +628,366 @@ ul a:hover {
 
 /****************************** partners end */
 
+/* ******************************************** */
+
+/* **************************** talk start */
+
+#talk {
+  width: 100%;
+  min-height: 696px;
+  display: flex;
+  margin-top: 20px;
+}
+
+#talk .left {
+  width: 50%;
+  min-height: 696px;
+  background-color: var(--dark-green);
+  padding: 100px 150px;
+}
+
+#talk .left .left-wrapper {
+  min-height: 496px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 400px;
+}
+
+#talk .left .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 180px;
+  width: 100%;
+}
+
+#talk .left .text h2 {
+  font-family: var(--font-r);
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 57.5px;
+  letter-spacing: 0%;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+#talk .left .text p {
+  font-family: var(--font-r);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23.2px;
+  letter-spacing: 0%;
+  color: var(--opacity-white);
+}
+
+#talk .left form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 120px;
+}
+
+#talk .left form input {
+  width: 100%;
+  height: 33px;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+#talk .left form input::placeholder {
+  font-family: var(--font-r);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23.2px;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#talk .left form .drag-drop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 157px;
+  height: 18px;
+}
+
+#talk .left form .drag-drop p {
+  font-family: var(--font-r);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#talk .left .submit {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 300px;
+  min-height: 100px;
+}
+
+#talk .left .submit button {
+  width: 300px;
+  height: 60px;
+  background-color: var(--btn-bg);
+  outline: none;
+  border: none;
+}
+
+#talk .left .submit button a {
+  font-family: var(--font-r);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+#talk .left .submit .bottom-submit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 15px;
+}
+
+#talk .left .submit .bottom-submit .square {
+  width: 15px;
+  height: 15px;
+  display: grid;
+  place-items: center;
+  border: 2px solid #ffffff;
+}
+
+#talk .left .submit .bottom-submit .mini-square {
+  width: 5px;
+  height: 5px;
+  background-color: #ffffff;
+}
+
+#talk .left .submit .bottom-submit p {
+  color: #ffffff;
+  font-family: var(--font-r);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15.6px;
+  letter-spacing: 0%;
+}
+
+#talk .right {
+  width: 50%;
+  min-height: 696px;
+  background-image: url(../images/bro\ and\ girl.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* **************************** talk end */
+
+/* ****************************************** */
+
+/* **************************** footer start */
+
+footer {
+  width: 100%;
+  min-height: 410px;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 410px;
+}
+
+.footer-wrapper .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 212px;
+}
+
+.top-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 130px;
+  min-height: 105px;
+}
+
+.top-logo .social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 131px;
+  height: 24px;
+}
+
+.top-logo .social p {
+  color: rgba(40, 43, 34, 0.5);
+  font-family: var(--font-r);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0%;
+}
+
+.top-logo .social .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40px;
+  height: 24px;
+}
+
+.top-logo .social .icons i {
+  font-size: 24px;
+  color: var(--btn-bg);
+  cursor: pointer;
+}
+
+.top-logo .social .icons i:hover {
+  color: #000;
+}
+
+.same-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 105px;
+  width: 35%;
+}
+
+.same-list ul {
+  min-height: 105px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.same-list ul li a {
+  color: var(--primary-color);
+  font-family: var(--font-r);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0%;
+}
+
+.same-list ul li a:hover {
+  transition: all 0.3s;
+  color: var(--btn-bg);
+  opacity: 50%;
+}
+
+.top-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 105px;
+  width: 280px;
+}
+
+.top-contact .tel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 22px;
+  width: 190px;
+}
+
+.top-contact .tel a {
+  color: var(--dark-green);
+  font-family: var(--font-lato);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.top-contact button {
+  width: 280px;
+  height: 60px;
+  background-color: var(--btn-bg);
+  outline: none;
+  border: none;
+}
+
+.top-contact button a {
+  font-family: var(--font-r);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.footer-wrapper .line {
+  width: 100%;
+  border: 1px solid rgba(40, 43, 34, 0.2);
+}
+
+.footer-wrapper .bottom {
+  width: 100%;
+  min-height: 198px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.all {
+  color: var(--dark-green);
+  font-family: var(--font-r);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0%;
+}
+
+.companies {
+  width: 100%;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.companies img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.last {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.last p {
+  font-family: var(--font-r);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0%;
+  color: rgba(40, 43, 34, 0.5);
+}
+
+/* **************************** footer end */
+
 /* ****************************************************************  RWD DESIGN  ******************************************************************* */
 
 @media only screen and (max-width: 1000px) {
